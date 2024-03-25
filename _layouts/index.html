@@ -1,0 +1,98 @@
+ {% include header.html %}
+  <div class="container">
+         <div class="mid">
+                <div class="left">
+                <h2>book is my best friend</h2>
+                <p>Reading is not only beneficial to widen our horizon,but also to purify our heart.I'd like to read a novel under the warm sunshine with a coffee,just these things.....</p>
+                <div class="arrow arrow1">
+                </div>
+                <div class="arrow arrow2">
+                </div>
+                </div>
+
+                <div class="right" id="right">
+                        <ul id="slider" class="slider">
+			<li><a href="" target="_blank"><img  src="/public/img/2015060583028529.jpg" alt=""></a></li>
+			<li><a href="" target="_blank"><img src="/public/img/2015062050056109.jpg" alt=""></a></li>
+			<li><a href="" target="_blank"><img  src="/public/img/2015060782423841.png" alt=""></a></li>
+			<li><a href="" target="_blank"><img  src="/public/img/2013070950768013.jpg" alt=""></a></li>
+		</ul><ul id="bannerCtrl" class="num">
+			<li class="on">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		 </ul>
+         </div>
+
+  </div>
+  <div class="tour-list">
+       <div class="one">
+               <img src="/public/img/img1.jpg"/>
+               <p>Every time I find the beautiful scenery,the natural sights,the corner that most people are used to ignoring,I will feel happy,enjoyable and satisfied.I want to seek more and enjoy more.I hope that one day,when I go through the corner of a street, I coming across you..</p>
+       </div>
+       <ul>
+           <li class="first">
+           <img src="/public/img/yh.jpg" alt="">
+           <div class="desc">
+                 <h2>武汉大学樱花</h2>
+                 <span><a href="http://sunshinewyf.github.io/blog/2015/02/14/wuda-tour">Read more</a></span>
+           </div>
+           </li>
+           <li>
+           <img src="/public/img/cjdq.jpg" alt="">
+           <div class="desc">
+               <h2>武汉长江大桥</h2>
+                <span><a href="http://sunshinewyf.github.io/blog/2014/10/14/changjiang-tour">Read more</a></span>
+           </div>
+           </li>
+           <li>
+           <img src="/public/img/gqt.jpg" alt="">
+            <div class="desc">
+　　　　<h2>古琴台</h2>
+                <span><a href="http://sunshinewyf.github.io/blog/2015/10/02/guqintai-tour">Read more</a></span>
+            </div>
+           </li>
+       </ul>
+  
+  </div>
+  <div class="book-list">
+       <ul>
+            <li class="first">
+                   <img src="/public/img/7.jpg"/>
+                   <p>你的孤独虽败犹荣</p>
+                   <span><a href="http://sunshinewyf.github.io/blog/2015/10/02/alone">Read  more</a></span>
+           </li>
+           <li>
+                   <img src="/public/img/8.jpg"/>
+                   <p>向前一步</p>
+                   <span><a href="http://sunshinewyf.github.io/blog/2015/10/15/lean-in">Read  more</a></span>
+          </li>
+             <li>
+                   <img src="/public/img/9.jpg"/>
+                   <p>偷影子的人</p>
+                   <span><a href="http://sunshinewyf.github.io/blog/2015/04/20/tou-ying-book">Read  more</a></span>
+            </li>
+               <li>
+                   <img src="/public/img/10.png"/>
+                   <p>平凡的世界</p>
+                   <span><a href="http://sunshinewyf.github.io/blog/2015/10/02/guqintai-tour">Read  more</a></span>
+            </li>
+       </ul>
+
+</div>
+</div>
+{% include footer.html %}
+
+ <script type="text/javascript">
+$(function() {
+	var bannerSlider = new Slider($('#right'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'on'
+	});
+})
+</script>
