@@ -4,7 +4,7 @@ title: "Yuanzhen's Blog"
 description: "The personal website for Yuanzhen."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/huangyuanzhen.github.io'
+baseurl: /huangyuanzhen.github.io
 include: ["_pages"]
 permalink: /:title/
 
