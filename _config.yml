@@ -1,49 +1,23 @@
-# Site
-name: "Yuanzhen's Blog"
-title: "Yuanzhen's Blog"
-description: "The personal website for Yuanzhen."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /huangyuanzhen.github.io
-include: ["_pages"]
-permalink: /:title/
+name: the record of Hoey's Learning
+url: http://huangyuanzhen.github.io
+title: the record of Yuanzhen's Learning
+email: huangyuanzhen7728@gmail.com
+description: ./_site
+lsi:      false
+safe:     false
+baseurl: ""
+github_username:  huangyuanzhen
+encoding: utf-8
+# Build settings
 
-# Authors
-authors:
-  yaunzhen:
-    name: yuanzhen
-    display_name: yuanzen
-    email: 1356409766@qq.com
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
+markdown: redcarpet
 markdown: kramdown
-
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+pygments:    true
+highlighter: pygments
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+post_defaults:
+  layout: post
 
+permalink: /blog/:year/:month/:day/:title
