@@ -9,7 +9,9 @@ footer {
   display: flex;
     flex-direction: column;
     align-items: center;
-}
+    bottom: 0;
+    left: 0;
+    position: fixed;
 }
 
 table {
