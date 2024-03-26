@@ -1,0 +1,20 @@
+ {% include header.html %}
+      <div class="tour-container">
+           <ul>
+             {% for post in site.posts %}
+              {% if post.category == 'write' %}
+              <li><a href="{{ post.url }}"><img src="/public/img/{{ post.image}}" alt=""></a>
+                <div class="title">
+                      {{ post.title }}
+                  </div>
+                  <div class="date">
+                        {{ post.date | date_to_string }}
+                  </div>
+              </li>
+              {% endif %}
+                {% endfor %}
+           </ul>
+
+      </div>
+
+ {% include footer.html %}
