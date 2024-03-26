@@ -595,9 +595,9 @@ footer {
   width: 100%;
   background: #202121;
   height: 100px; 
-      display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   footer:before, footer:after {
     content: "";
