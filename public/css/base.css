@@ -2,8 +2,15 @@ html, body, h1, h2, h3, h4, h5, h6, div, ul, ol, li, dl, dt, dd, p, blockquote, 
   margin: 0;
   padding: 0; }
 
-header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+header, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
   display: block; }
+
+footer {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
 
 table {
   border-collapse: collapse;
