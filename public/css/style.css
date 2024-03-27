@@ -647,6 +647,12 @@ footer {
   text-align: justify;
 }
 
+.introduction p {
+  font-size: 18px;
+  color: black;
+  text-align: left;
+}
+
 .communication {
   list-style: none;
   margin-top: 30px;
