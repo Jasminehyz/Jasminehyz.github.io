@@ -643,6 +643,8 @@ footer {
 
 .introduction h2 {
   margin-bottom: 20px;
+  font-size: 28px;
+  text-align: justify;
 }
 
 .communication {
@@ -650,7 +652,12 @@ footer {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
+
+  ul {
+        display: flex;
+        align-items: center;
+  }
 }
 
 .communication li {
