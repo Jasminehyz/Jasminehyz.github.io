@@ -614,4 +614,58 @@ footer {
   footer p:first-child {
     margin-top: 20px; }
 
+.header h1, .header p {
+  margin: 0;
+}
+
+.background-image {
+  position: fixed; /* or absolute if you want it relative to the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('background-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8; /* Adjust the transparency as desired */
+  z-index: -1; /* Ensure the background is behind the content */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensure the content is on top of the background */
+  max-width: 900px; /* Adjust as needed */
+  margin: 120px auto 0; /* Add top margin to compensate for the fixed header */
+  padding: 40px;
+  text-align: center;
+}
+
+.introduction h2 {
+  margin-bottom: 20px;
+}
+
+.communication {
+  list-style: none;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.communication li {
+  margin: 10px;
+}
+
+.communication a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.communication img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
