@@ -1,12 +1,11 @@
-name: the record of IrisHuang's Learning
-url: http://huangyuanzhen.github.io
-title: the record of IrisHuang's Learning
+name: Jasminehyz's self-introduction
+url: http://Jasminehyz.github.io
+title: Jasminehyz's self-introduction
 email: huangyuanzhen7728@gmail.com
-description: ./_site
 lsi:      false
 safe:     false
 baseurl: ""
-github_username:  huangyuanzhen
+github_username:  Jasminehyz
 encoding: utf-8
 # Build settings
 
@@ -14,10 +13,3 @@ markdown: redcarpet
 markdown: kramdown
 kramdown:
   input: GFM
-pygments:    true
-highlighter: pygments
-
-post_defaults:
-  layout: post
-
-permalink: /blog/:year/:month/:day/:title
