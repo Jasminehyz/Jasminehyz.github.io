@@ -101,11 +101,20 @@ body.page p {
     display: inline-block;
     margin-right: 8px;
 }
+
 .network ul li a {
     display: inline-block;
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.svg-icon {
+    padding: 4px;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    display: block;
 }
 
 .credit {
@@ -115,6 +124,12 @@ body.page p {
     margin-top: 12px;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
+.credit p.copyright {
+    color: #888;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    opacity: 0.75;
 }
+
+
