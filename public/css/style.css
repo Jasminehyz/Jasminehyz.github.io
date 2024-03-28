@@ -1,11 +1,14 @@
 .page {
-      background-color: #1b1d22;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 28px;
     line-height: 44px;
     vertical-align: baseline;
       border-style: none;
+       background-image: url("../bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main {
