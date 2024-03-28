@@ -28,6 +28,8 @@ content {
     align-items: start;
     justify-content: center;
     flex-direction: column;
+        width: 60%;
+    padding-right: 100px;
 }
 
 .logo {
